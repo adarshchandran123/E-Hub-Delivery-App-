@@ -1,0 +1,30 @@
+
+.container_Body{
+    border-radius: 30px;
+    box-shadow:#023047 3px 4px 6px;
+    border: #023047 solid 2px
+}
+.img_Style{
+    margin-top: -62px;
+    display: flex;
+    justify-content: center;
+}
+.heading_style{
+    font-family: fantasy !important;
+    color: #023047;
+    font-weight: 700;
+    
+}
+
+.submitButton_style{
+    background-color: #023047 !important;
+    color: white !important;
+    border-radius: 10 !important;
+    font-weight: 700 !important;
+}
+
+.signup_link{
+    color: green;
+    border:#023 7 solid 2px;
+    border-radius: 10px;
+}
