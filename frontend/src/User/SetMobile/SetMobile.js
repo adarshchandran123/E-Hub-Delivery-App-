@@ -30,7 +30,7 @@ const SetMobile = () => {
     if(!mobile){
         setErr('Please enter mobile Number')
     }else if(mobile.length !== 10){
-        setErr('Need 10 Number')
+        setErr('Need 10 Digit')
     }else{
 
       try{
@@ -48,7 +48,7 @@ const SetMobile = () => {
 
       }
         
-    }
+    } 
 
     
   
@@ -73,14 +73,14 @@ const SetMobile = () => {
               alignItems: "center",
             }}
           >
-            <div className="img_Style" >
+            {/* <div className="img_Style" >
               <img
                 width={260}
                 style={{ borderRadius: "30px" }}
                 height="auto"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrnxBK9TBfMETNKVLO9WjJohg52_SfGV_9HXjyz6KpKLsm7BBRikwsaIgPVT8Tk-93d9Q&usqp=CAU"
               />
-            </div>
+            </div> */}
 
             <Typography
               

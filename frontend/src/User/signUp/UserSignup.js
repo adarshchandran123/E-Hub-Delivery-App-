@@ -58,7 +58,6 @@ const UserSignup = () => {
             },
           }
           axios.post("http://localhost:5000/user/userSignup",rest,config).then((response)=>{
-
               localStorage.setItem('userDetails',JSON.stringify(rest.email))
               
               Navigate('/email_otp')
